@@ -1,0 +1,38 @@
+{
+  "name": "buses6",
+  "version": "1.0.0",
+  "description": "this is businect with javascript ES6 ",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhenge/busES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhenge/busES6/issues"
+  },
+  "homepage": "https://github.com/muhenge/busES6#readme",
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.5",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-register": "^6.26.0",
+    "babel-watch": "^7.0.0"
+  }
+}
